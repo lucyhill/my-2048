@@ -1,0 +1,21 @@
+.grid-container {
+    display: grid;
+    grid-template: 100px 100px 100px 100px / 100px 100px 100px 100px;
+    grid-gap: 15px;
+    padding: 80px;
+    align-content: center;
+    justify-content: center;
+
+}
+
+.grid-item {
+    padding: 10px;
+    border-style: solid;
+    border-radius: 10px;
+    border-color: lightgoldenrodyellow;
+
+}
+
+#root {
+    background-color: lightgoldenrodyellow;
+}
